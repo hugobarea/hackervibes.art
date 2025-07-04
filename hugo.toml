@@ -4,7 +4,7 @@ theme = 'hello-friend-ng'
 baseURL = 'https://hackingstuff.xyz/'
 
 [params]
-  homeSubtitle = "A CTF writeup repository"
+  homeSubtitle = "A CTF writeup repository by Hugo Barea"
   enableGlobalLanguageMenu = true
   enableSharingButtons = true
 
@@ -53,7 +53,21 @@ baseURL = 'https://hackingstuff.xyz/'
       logoHomeLink = "/es"
 
 
-[menus]
-  [[menus.main]]
-    name = 'Writeups'
-    pageRef = 'https://hackingstuff.xyz/writeups/'
+[[menu.main]]
+  identifier = 'writeups'
+  name = 'Writeups'
+  url = '/writeups/'
+  weight = 1
+
+[[menu.main]]
+  parent = 'writeups'
+  name = 'TryHackMe'
+  url = '/writeups/tryhackme/'
+  weight = 2
+
+[[menu.main]]
+  parent = 'writeups'
+  name = 'HackTheBox'
+  url = '/writeups/hackthebox/'
+  weight = 3
+
