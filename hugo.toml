@@ -1,5 +1,4 @@
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = false
 title = 'hackingstuff.xyz'
 theme = 'hello-friend-ng'
 baseURL = 'https://hackingstuff.xyz/'
@@ -26,7 +25,6 @@ baseURL = 'https://hackingstuff.xyz/'
     disabled = false
     languageCode = 'en-US'
     languageName = 'English'
-    baseURL = 'https://hackingstuff.xyz/'
 
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
@@ -44,7 +42,6 @@ baseURL = 'https://hackingstuff.xyz/'
     languageCode = 'es-ES'
     languageName = 'Español'
     keywords = ""
-    baseURL = 'https://hackingstuff.xyz/es'
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
