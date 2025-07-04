@@ -1,7 +1,8 @@
-baseURL = 'https://hackervibes.art/'
-languageCode = 'en-us'
-title = 'hackervibes.art'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+title = 'hackingstuff.xyz'
 theme = 'hello-friend-ng'
+baseURL = 'https://hackingstuff.xyz/'
 
 [params]
   homeSubtitle = "A CTF writeup repository"
@@ -22,7 +23,11 @@ theme = 'hello-friend-ng'
 
 [languages]
   [languages.en]
-    title = "hackervibes.art"
+    disabled = false
+    languageCode = 'en-US'
+    languageName = 'English'
+    baseURL = 'https://hackingstuff.xyz/'
+
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
@@ -31,12 +36,15 @@ theme = 'hello-friend-ng'
     subtitle  = "A CTF writeup repository"
 
     [languages.en.params.logo]
-      logoText = "hackervibes.art"
+      logoText = "hackingstuff.xyz"
       logoHomeLink = "/"
   
   [languages.es]
-    title = "hackervibes.art"
+    disabled = false
+    languageCode = 'es-ES'
+    languageName = 'Español'
     keywords = ""
+    baseURL = 'https://hackingstuff.xyz/es'
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
@@ -44,5 +52,5 @@ theme = 'hello-friend-ng'
     subtitle  = "Un repositorio de writeups de CTFs"
 
     [languages.es.params.logo]
-      logoText = "hackervibes.art"
-      logoHomeLink = "/"
+      logoText = "hackingstuff.xyz"
+      logoHomeLink = "/es"
