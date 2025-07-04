@@ -54,3 +54,9 @@ baseURL = 'https://hackingstuff.xyz/'
     [languages.es.params.logo]
       logoText = "hackingstuff.xyz"
       logoHomeLink = "/es"
+
+
+[menus]
+  [[menus.main]]
+    name = 'Writeups'
+    pageRef = 'https://hackingstuff.xyz/writeups/'
