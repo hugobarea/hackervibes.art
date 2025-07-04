@@ -1,4 +1,15 @@
-# CheeseCTF
++++
+categories = ["tryhackme", "easy"]
+date = "2025-07-04"
+description = "CheeseCTF Writeup"
+featured = "/writeups/tryhackme/cheesectf/1.png"
+featuredalt = ""
+featuredpath = "date"
+linktitle = ""
+title = "[THM] CheeseCTF"
+slug = "cheesectf"
+type = "post"
++++
 
 [Link to the room](https://tryhackme.com/r/room/cheesectfv10)
 
