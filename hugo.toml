@@ -1,3 +1,48 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://hackervibes.art/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'hackervibes.art'
+theme = 'hello-friend-ng'
+
+[params]
+  homeSubtitle = "A CTF writeup repository"
+  enableGlobalLanguageMenu = true
+  enableSharingButtons = true
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/hugo-barea/"
+
+[[params.social]]
+  name = "twitter"
+  url = "https://x.com/hugobarea_"
+
+[[params.social]]
+  name = "hackthebox"
+  url = "https://app.hackthebox.com/profile/overview"
+
+[languages]
+  [languages.en]
+    title = "hackervibes.art"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+  [languages.en.params]
+    subtitle  = "A CTF writeup repository"
+
+    [languages.en.params.logo]
+      logoText = "hackervibes.art"
+      logoHomeLink = "/"
+  
+  [languages.es]
+    title = "hackervibes.art"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+  [languages.es.params]
+    subtitle  = "Un repositorio de writeups de CTFs"
+
+    [languages.es.params.logo]
+      logoText = "hackervibes.art"
+      logoHomeLink = "/"
