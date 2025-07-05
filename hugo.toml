@@ -2,6 +2,7 @@ defaultContentLanguage = 'en'
 title = 'hackingstuff.xyz'
 theme = 'hello-friend-ng'
 baseURL = 'https://hackingstuff.xyz/'
+enableRobotsTXT = true
 
 [params]
   homeSubtitle = "A CTF writeup repository by Hugo Barea"
@@ -71,3 +72,6 @@ baseURL = 'https://hackingstuff.xyz/'
   url = '/writeups/hackthebox/'
   weight = 3
 
+[taxonomies]
+  tag      = "tags"
+  difficulty = "difficulties"

@@ -1,17 +1,18 @@
 +++
-categories = ["tryhackme", "easy"]
+tags = ["tryhackme", "easy"]
+difficulty = "easy"
 date = "2025-07-04"
 description = "CheeseCTF Writeup"
 featured = "/writeups/tryhackme/cheesectf/1.png"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
-title = "[THM] CheeseCTF"
+title = "[EASY] CheeseCTF"
 slug = "cheesectf"
 type = "post"
 +++
 
-[Link to the room](https://tryhackme.com/r/room/cheesectfv10)
+[Link to the room!](https://tryhackme.com/r/room/cheesectfv10)
 
 ## Enumeration
 
