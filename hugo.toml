@@ -61,16 +61,22 @@ enableRobotsTXT = true
   weight = 1
 
 [[menu.main]]
+  identifier = 'research'
+  name = 'Research'
+  url = '/research/'
+  weight = 2
+
+[[menu.main]]
   parent = 'writeups'
   name = 'TryHackMe'
   url = '/writeups/tryhackme/'
-  weight = 2
+  weight = 3
 
 [[menu.main]]
   parent = 'writeups'
   name = 'HackTheBox'
   url = '/writeups/hackthebox/'
-  weight = 3
+  weight = 4
 
 [taxonomies]
   tag      = "tags"
