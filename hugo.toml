@@ -5,11 +5,15 @@ theme = "hello-friend-ng"
 enableRobotsTXT = true
 defaultContentLanguage = "en"
 
+
 # Parameters
 [params]
   homeSubtitle = "A CTF writeup repository by Hugo Barea"
   enableGlobalLanguageMenu = false   # disable language menu
   enableSharingButtons = true
+  [params.logo]
+    logoText = "hackingstuff.xyz"
+    logoHomeLink = "/"
 
   [[params.social]]
     name = "linkedin"
