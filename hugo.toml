@@ -1,83 +1,60 @@
-defaultContentLanguage = 'en'
-title = 'hackingstuff.xyz'
-theme = 'hello-friend-ng'
-baseURL = 'https://hackingstuff.xyz/'
+# Site settings
+baseURL = "https://hackingstuff.xyz/"
+title = "hackingstuff.xyz"
+theme = "hello-friend-ng"
 enableRobotsTXT = true
+defaultContentLanguage = "en"
 
+# Parameters
 [params]
   homeSubtitle = "A CTF writeup repository by Hugo Barea"
-  enableGlobalLanguageMenu = true
+  enableGlobalLanguageMenu = false   # disable language menu
   enableSharingButtons = true
 
-[[params.social]]
-  name = "linkedin"
-  url = "https://www.linkedin.com/in/hugo-barea/"
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/hugo-barea/"
 
-[[params.social]]
-  name = "twitter"
-  url = "https://x.com/hugobarea_"
+  [[params.social]]
+    name = "twitter"
+    url = "https://x.com/hugobarea_"
 
-[[params.social]]
-  name = "hackthebox"
-  url = "https://app.hackthebox.com/profile/overview"
+  [[params.social]]
+    name = "hackthebox"
+    url = "https://app.hackthebox.com/profile/overview"
 
-[languages]
-  [languages.en]
-    disabled = false
-    languageCode = 'en-US'
-    languageName = 'English'
-
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
-
-  [languages.en.params]
-    subtitle  = "A CTF writeup repository"
-
-    [languages.en.params.logo]
-      logoText = "hackingstuff.xyz"
-      logoHomeLink = "/"
-  
-  [languages.es]
-    disabled = false
-    languageCode = 'es-ES'
-    languageName = 'Español'
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
-
-  [languages.es.params]
-    subtitle  = "Un repositorio de writeups de CTFs"
-
-    [languages.es.params.logo]
-      logoText = "hackingstuff.xyz"
-      logoHomeLink = "/es"
-
-
+# Menus
 [[menu.main]]
-  identifier = 'writeups'
-  name = 'Writeups'
-  url = '/writeups/'
+  identifier = "writeups"
+  name = "Writeups"
+  url = "/writeups/"
   weight = 1
 
 [[menu.main]]
-  identifier = 'research'
-  name = 'Research'
-  url = '/research/'
+  identifier = "research"
+  name = "Research"
+  url = "/research/"
   weight = 2
 
 [[menu.main]]
-  parent = 'writeups'
-  name = 'TryHackMe'
-  url = '/writeups/tryhackme/'
+  parent = "writeups"
+  name = "TryHackMe"
+  url = "/writeups/tryhackme/"
   weight = 3
 
 [[menu.main]]
-  parent = 'writeups'
-  name = 'HackTheBox'
-  url = '/writeups/hackthebox/'
+  parent = "writeups"
+  name = "HackTheBox"
+  url = "/writeups/hackthebox/"
   weight = 4
 
+# Taxonomies
 [taxonomies]
-  tag      = "tags"
+  tag = "tags"
   difficulty = "difficulties"
+
+# Sitemap settings
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
